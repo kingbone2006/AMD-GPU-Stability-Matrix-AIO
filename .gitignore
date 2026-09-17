@@ -1,0 +1,11 @@
+# Temporary & Log files
+*.log
+*.tmp
+*.deb
+*.AppImage
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*~
+*.swp

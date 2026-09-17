@@ -2,7 +2,7 @@
 
 # Kiểm tra quyền Root
 if [ "$EUID" -ne 0 ]; then
-  echo "[-] Vui lòng chạy script này với quyền sudo (sudo ./mi50_utility_menu.sh)"
+  echo "[-] Vui lòng chạy script này với quyền sudo (sudo ./$(basename "$0"))"
   exit 1
 fi
 
